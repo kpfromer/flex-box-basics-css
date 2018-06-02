@@ -6,4 +6,7 @@
 .container {
 	display: flex;
 	min-height: 50vh;
+
+	justify-content: center; /* main axis centering */
+	align-items: center; /* cross axis centering */
 }
