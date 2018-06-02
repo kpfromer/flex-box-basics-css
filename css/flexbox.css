@@ -8,5 +8,8 @@
 	min-height: 50vh;
 
 	justify-content: center; /* main axis centering */
-	align-items: center; /* cross axis centering */
+}
+
+.item {
+	align-self: center; /* single item cross axis centering */
 }
