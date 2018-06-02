@@ -6,10 +6,8 @@
 .container {
 	display: flex;
 	min-height: 50vh;
-
-	justify-content: center; /* main axis centering */
 }
 
 .item {
-	align-self: center; /* single item cross axis centering */
+	margin: auto; /* equal space on each side top/bottom and left/right */
 }
